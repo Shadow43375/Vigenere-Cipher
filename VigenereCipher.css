@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  width: 70%;
+  height: 100%;
+  margin: 15px auto;
+  display: block;
+}
+
+#modeButtonDiv {
+  text-align: right;
+
+}
+
+#modeButtonDiv > button {
+  height: 6vh;
+  width: 30%;
+  max-width: 45%;
+  margin-left: 2%; 
+  overflow: hidden;
+  overflow-wrap: break-word
+}
+
+
+.entryBox {
+  width: 100%;
+  height: 40%;
+  resize: none;
+  margin-top: 3%;
+}
+
+#encipherDiv {
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#keyWordBox {
+  width 50%;
+  resize: none;
+}
+
+#encipherButton {
+
+}
