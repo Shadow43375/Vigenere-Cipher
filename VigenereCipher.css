@@ -9,6 +9,12 @@ html, body {
   width: 100%;
 }
 
+button {
+  color: white;
+  background-color: rgb(36, 79, 147);
+  cursor: pointer;
+}
+
 #container {
   width: 70%;
   height: 100%;
@@ -18,7 +24,6 @@ html, body {
 
 #modeButtonDiv {
   text-align: right;
-
 }
 
 #modeButtonDiv > button {
@@ -39,17 +44,23 @@ html, body {
 }
 
 #encipherDiv {
+  padding-top: 2%;
   text-align: center;
   display: block;
   width: 100%;
+  height: 10%;  
   margin: 0 auto;
 }
 
 #keyWordBox {
-  width 50%;
+  min-width 25%;
+  max-width: 50%;
+  height: 100%;  
   resize: none;
 }
 
 #encipherButton {
-
+  display: inline-block;
+  vertical-align: top; 
+  height: 100%;  
 }
